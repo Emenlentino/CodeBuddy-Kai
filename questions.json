@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is the correct way to define a variable in Python?",
+      "answers": [
+        "int x = 5",
+        "x := 5",
+        "x = 5",
+        "let x = 5"
+      ],
+      "correct": [
+        "x = 5"
+      ],
+      "level": "Easy"
+    },
+    {
+      "question": "Explain the difference between a list and a tuple in Python. Provide an example of each.",
+      "answers": [],
+      "correct": [
+        "A list is mutable, meaning it can be modified after its creation, while a tuple is immutable, meaning it cannot be changed once created. Example of a list: my_list = [1, 2, 3]; Example of a tuple: my_tuple = (1, 2, 3)"
+      ],
+      "level": "Medium"
+    },
+    {
+      "question": "Write a Python program that prints all even numbers from 1 to 20 using a `for` loop.",
+      "answers": [],
+      "correct": [
+        "for i in range(1, 21):\n    if i % 2 == 0:\n        print(i)"
+      ],
+      "level": "Medium"
+    },
+    {
+      "question": "Complete the following function to calculate the factorial of a given number `n`:",
+      "answers": [],
+      "correct": [
+        "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"
+      ],
+      "level": "Medium"
+    },
+    {
+      "question": "Design a Python class named `Car` that has attributes for `make`, `model`, and `year`. Include a method to display the car's information.",
+      "answers": [],
+      "correct": [
+        "class Car:\n    def __init__(self, make, model, year):\n        self.make = make\n        self.model = model\n        self.year = year\n\n    def display_info(self):\n        print(f\"{self.year} {self.make} {self.model}\")\n\n# Example usage\nmy_car = Car(\"Toyota\", \"Corolla\", 2020)\nmy_car.display_info()"
+      ],
+      "level": "Hard"
+    },
+    {
+      "question": "What is Python?",
+      "answers": ["A programming language", "A snake", "A type of coffee"],
+      "correct": ["A programming language"],
+      "level": "Basic"
+    },
+    {
+      "question": "What is the capital of France?",
+      "answers": ["Paris", "London", "Berlin"],
+      "correct": ["Paris"],
+      "level": "Basic"
+    }
+  ]
+}
